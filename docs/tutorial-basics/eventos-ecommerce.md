@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 3
 ---
 
@@ -85,7 +85,7 @@ Documentacion Adicional: [view_item en GA4](https://developers.google.com/analyt
 
 ### `add_to_cart`
 
-Se usa para medir cada vez que un usuario agrega un producto al carrito.
+Se usa para medir cada vez que un usuario agrega un producto al carrito. Para Clevertap el evento es add_to_cart_c
 
 #### Parametros
 
@@ -124,7 +124,7 @@ Documentacion Adicional: [add_to_cart en GA4](https://developers.google.com/anal
 
 ### `add_to_wishlist`
 
-Se usa para medir cada vez que un usuario agrega un producto la lista de deseos.
+Se usa para medir cada vez que un usuario agrega un producto la lista de deseos. Para Clevertap el evento es add_to_wishlist_c
 
 #### Parametros
 
@@ -162,7 +162,7 @@ Documentacion Adicional: [add_to_wishlist en GA4](https://developers.google.com/
 
 ### `view_cart`
 
-Se usa para medir cada vez que un usuario va a visualizar su carrito de compras con los productos agregados en el.
+Se usa para medir cada vez que un usuario va a visualizar su carrito de compras con los productos agregados en el. Para Clevertap el evento es view_cart_c
 
 #### Parametros
 
@@ -200,7 +200,7 @@ Documentacion Adicional: [view_cart en GA4](https://developers.google.com/analyt
 
 ### `remove_from_cart`
 
-Se usa para medir cada vez que un usuario remueve un producto del carrito.
+Se usa para medir cada vez que un usuario remueve un producto del carrito. Para Clevertap el evento es remove_from_cart_c
 
 #### Parametros
 
@@ -285,7 +285,6 @@ Se usa para medir cada vez que el usuario agrega ( no tenia ) o confirma ( ya te
 | --- | --- | --- | --- | --- |
 |[`currency`](../tutorial-extras/parametros-ecommerce.md#currency)| `string` | Si | COP | Tipo de Moneda usado  |
 |[`value`](../tutorial-extras/parametros-ecommerce.md#value)| `number` | Si | 39900 | Valor Total monetario del(los) producto(s) que se encuentran en el carrito y con los cuales se esta haciendo checkout. Este valor debe ser el resultado de la sumatoria de [`price`](../tutorial-extras/parametros-ecommerce.md#price)*[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity) de cada uno de los productos en el carrito  |
-|[`coupon`](../tutorial-extras/parametros-ecommerce.md#coupon)| `string` | No | PRIMERAVEZ | Si el usuario aplico un cupon especificar cual. |
 |[`shipping_tier`](../tutorial-extras/parametros-ecommerce.md#shipping_tier)| `string` | No | Aire | Tipo de envio, puede ser tierra, aire,mar, o Next-day, Free, premium, etc |
 |[`items`](../tutorial-extras/parametros-ecommerce.md#items)| `Array<Item>` | Si |  | Informacion del(los) Producto(s) que se encuentran en el carrito y con los cuales se esta haciendo checkout |
 
@@ -398,7 +397,7 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 
 ### `purchase`
 
-Se usa para medir cada vez que el usuario ha completado exitosamente su compra. <mark>_Este evento SOLO debe dispararse si SI o SIhubo una transaccion exitosa de DINERO ( Ingreso )_</mark>.
+Se usa para medir cada vez que el usuario ha completado exitosamente su compra. <mark>_Este evento SOLO debe dispararse si hubo una transaccion exitosa de DINERO ( Ingreso )_</mark>. Para Clevertap el evento se registra como Charged.
 
 #### Parametros
 

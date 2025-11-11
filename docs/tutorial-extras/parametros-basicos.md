@@ -1,8 +1,8 @@
-# Parametros Basicos
+﻿# Parametros Basicos
 
 
 
-### `firebase_screen`
+### `nombre_pantalla`
 
 nombre de la pantalla que se esta visualizando
 
@@ -12,8 +12,7 @@ nombre de la pantalla que se esta visualizando
 
 - [`screen_view`](../tutorial-basics/eventos.md#screen_view)
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 - [`login`](../tutorial-basics/eventos.md#login)
 - [`search`](../tutorial-basics/eventos.md#search)
 - [`sign_up`](../tutorial-basics/eventos.md#sign_up)
@@ -23,12 +22,8 @@ nombre de la pantalla que se esta visualizando
 - [`product_image`](../tutorial-basics/eventos.md#product_image)
 - [`confirmar_ubicacion`](../tutorial-basics/eventos.md#confirmar_ubicacion)
 - [`verification`](../tutorial-basics/eventos.md#verification)
-- [`whatsapp`](../tutorial-basics/eventos.md#whatsapp)
-- [`recordarme`](../tutorial-basics/eventos.md#recordarme)
-- [`ingresar_con_celular`](../tutorial-basics/eventos.md#ingresar_con_celular)
-- [`crear_cuenta`](../tutorial-basics/eventos.md#crear_cuenta)
-- [`tengo_cuenta`](../tutorial-basics/eventos.md#tengo_cuenta)
-- [`echar_vistazo`](../tutorial-basics/eventos.md#echar_vistazo)
+- [`chat_help`](../tutorial-basics/eventos.md#chat_help)
+- [`guest_session`](../tutorial-basics/eventos.md#guest_session)
 - [`scroll`](../tutorial-basics/eventos.md#scroll)
 
 
@@ -42,8 +37,7 @@ Nombre del dispositivo donde se esta navegando
 
 - [`screen_view`](../tutorial-basics/eventos.md#screen_view)
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 - [`login`](../tutorial-basics/eventos.md#login)
 - [`search`](../tutorial-basics/eventos.md#search)
 - [`sign_up`](../tutorial-basics/eventos.md#sign_up)
@@ -53,12 +47,8 @@ Nombre del dispositivo donde se esta navegando
 - [`product_image`](../tutorial-basics/eventos.md#product_image)
 - [`confirmar_ubicacion`](../tutorial-basics/eventos.md#confirmar_ubicacion)
 - [`verification`](../tutorial-basics/eventos.md#verification)
-- [`whatsapp`](../tutorial-basics/eventos.md#whatsapp)
-- [`recordarme`](../tutorial-basics/eventos.md#recordarme)
-- [`ingresar_con_celular`](../tutorial-basics/eventos.md#ingresar_con_celular)
-- [`crear_cuenta`](../tutorial-basics/eventos.md#crear_cuenta)
-- [`tengo_cuenta`](../tutorial-basics/eventos.md#tengo_cuenta)
-- [`echar_vistazo`](../tutorial-basics/eventos.md#echar_vistazo)
+- [`chat_help`](../tutorial-basics/eventos.md#chat_help)
+- [`guest_session`](../tutorial-basics/eventos.md#guest_session)
 - [`scroll`](../tutorial-basics/eventos.md#scroll)
 
 
@@ -72,8 +62,7 @@ Nombre OS donde se esta navegando
 
 - [`screen_view`](../tutorial-basics/eventos.md#screen_view)
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 - [`login`](../tutorial-basics/eventos.md#login)
 - [`search`](../tutorial-basics/eventos.md#search)
 - [`sign_up`](../tutorial-basics/eventos.md#sign_up)
@@ -83,12 +72,8 @@ Nombre OS donde se esta navegando
 - [`product_image`](../tutorial-basics/eventos.md#product_image)
 - [`confirmar_ubicacion`](../tutorial-basics/eventos.md#confirmar_ubicacion)
 - [`verification`](../tutorial-basics/eventos.md#verification)
-- [`whatsapp`](../tutorial-basics/eventos.md#whatsapp)
-- [`recordarme`](../tutorial-basics/eventos.md#recordarme)
-- [`ingresar_con_celular`](../tutorial-basics/eventos.md#ingresar_con_celular)
-- [`crear_cuenta`](../tutorial-basics/eventos.md#crear_cuenta)
-- [`tengo_cuenta`](../tutorial-basics/eventos.md#tengo_cuenta)
-- [`echar_vistazo`](../tutorial-basics/eventos.md#echar_vistazo)
+- [`chat_help`](../tutorial-basics/eventos.md#chat_help)
+- [`guest_session`](../tutorial-basics/eventos.md#guest_session)
 - [`scroll`](../tutorial-basics/eventos.md#scroll)
 
 
@@ -102,8 +87,7 @@ Nombre del dia de la semana
 
 - [`screen_view`](../tutorial-basics/eventos.md#screen_view)
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 - [`login`](../tutorial-basics/eventos.md#login)
 - [`search`](../tutorial-basics/eventos.md#search)
 - [`sign_up`](../tutorial-basics/eventos.md#sign_up)
@@ -113,12 +97,8 @@ Nombre del dia de la semana
 - [`product_image`](../tutorial-basics/eventos.md#product_image)
 - [`confirmar_ubicacion`](../tutorial-basics/eventos.md#confirmar_ubicacion)
 - [`verification`](../tutorial-basics/eventos.md#verification)
-- [`whatsapp`](../tutorial-basics/eventos.md#whatsapp)
-- [`recordarme`](../tutorial-basics/eventos.md#recordarme)
-- [`ingresar_con_celular`](../tutorial-basics/eventos.md#ingresar_con_celular)
-- [`crear_cuenta`](../tutorial-basics/eventos.md#crear_cuenta)
-- [`tengo_cuenta`](../tutorial-basics/eventos.md#tengo_cuenta)
-- [`echar_vistazo`](../tutorial-basics/eventos.md#echar_vistazo)
+- [`chat_help`](../tutorial-basics/eventos.md#chat_help)
+- [`guest_session`](../tutorial-basics/eventos.md#guest_session)
 - [`scroll`](../tutorial-basics/eventos.md#scroll)
 
 
@@ -132,8 +112,7 @@ ID del formulario que se esta diligenciando
 
 
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 
 
 
@@ -146,21 +125,7 @@ Nombre del formulario que se esta diligenciando
 **Se usa en los siguientes eventos:**
 
 - [`form_start`](../tutorial-basics/eventos.md#form_start)
-- [`form_submit`](../tutorial-basics/eventos.md#form_submit)
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
-
-
-
-
-### `field_name`
-
-Nombre del campo del formulario que se esta diligenciando
-
-*Ejemplo:* fecha_nacimiento
-
-**Se usa en los siguientes eventos:**
-
-- [`field_input`](../tutorial-basics/eventos.md#field_input)
+- [`form_abandoned`](../tutorial-basics/eventos.md#form_abandoned)
 
 
 ### `method`
@@ -237,3 +202,13 @@ Si `action` toma el valor `run` este parametro debe tomar un valor que varia dep
 
 - [`filter`](../tutorial-basics/eventos.md#filter)
 - [`confirmar_ubicacion`](../tutorial-basics/eventos.md#confirmar_ubicacion)
+
+### `index`
+
+Es el indice o la pagina en la que se hace scroll
+
+*Ejemplo:* 2
+
+**Se usa en los siguientes eventos:**
+
+- [`scroll`](../tutorial-basics/eventos.md#scroll)

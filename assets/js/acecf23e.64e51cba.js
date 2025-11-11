@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksurtiapp_docusaurus=self.webpackChunksurtiapp_docusaurus||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/surtiapp-tracking-documentation/blog","blogTitle":"Blog","authorsListPath":"/surtiapp-tracking-documentation/blog/authors"}')}}]);

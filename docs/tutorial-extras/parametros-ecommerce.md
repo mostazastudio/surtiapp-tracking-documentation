@@ -1,4 +1,4 @@
-# Parametros Ecommerce
+﻿# Parametros Ecommerce
 
 
 ### `currency`

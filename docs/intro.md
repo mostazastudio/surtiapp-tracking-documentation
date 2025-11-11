@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_position: 1
 ---
 
@@ -34,12 +34,10 @@ El usuario al iniciar sesion en la App, se debe llamar el metodo setUserID que n
 |`UserType`| `string` | Si | **Por Definir** | Tipo de Usuario |
 |`CreatedAt`| `date` | Si | 2025-01-03 | Fecha de creacion del usuario |
 |`BirthDate`| `date` | Si | 1988-06-23 | Fecha de nacimiento del usuario  |
-|`ClevertapMsgPush`| `boolean` | Si | `true` | Autorizacion envios Push |
-|`ClevertapMsgEmail`| `boolean` | Si | `true` | Autorizacion envios email |
-|`ClevertapMsgSms`| `boolean` | Si | `true` | Autorizacion envios SMS |
-|`ClevertapMsgWhatsapp`| `boolean` | Si | `true` | Autorizacion envios Whatsapp |
-|`ClevertapDndPhone`| `boolean` | Si | **Por Definir** | **Por Definir** |
-|`ClevertapDndEmail`| `boolean` | Si | **Por Definir** | **Por Definir** |
+|`ClevertapMsgPush_MSG-push-all`| `boolean` | Si | `true` | Autorizacion envios Push |
+|`ClevertapMsgEmail_MSG-dndEmail`| `boolean` | Si | `false` | Autorizacion envios email |
+|`ClevertapMsgSms_MSG-dndPhone`| `boolean` | Si | `false` | Autorizacion envios SMS |
+|`ClevertapMsgWhatsapp_MSG-whatsapp`| `boolean` | Si | `true` | Autorizacion envios Whatsapp |
 
 
 

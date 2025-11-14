@@ -14,6 +14,9 @@ Para TODOS los eventos se tiene un parametro adicional `BusinessModel` que indic
 | --- | --- | --- | --- |
 |[`BusinessModel`](../tutorial-extras/parametros-ecommerce.md#BusinessModel)| `string` | SI | B2B | Modelo de negocio del usuario |
 
+---
+---
+
 ### `view_item_list`
 
 Se usa para medir cuando al usuario se le ha presentado una **lista o grilla de productos** especifica, indicado ademas cuales productos componen esa lista.

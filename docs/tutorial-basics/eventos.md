@@ -14,6 +14,9 @@ Para TODOS los eventos se tiene un parametro adicional `BusinessModel` que indic
 | --- | --- | --- | --- |
 |[`BusinessModel`](../tutorial-extras/parametros-basicos.md#BusinessModel)| `string` | SI | B2B | Modelo de negocio del usuario |
 
+---
+---
+
 ### `screen_view`
 
 Se usa para medir cuando visualizacion de pantalla en la App. Deberia visualizar pantallas como login, creacion_cuenta, tienda,promos, fabricantes, favoritos, cuenta, cada pantalla de departamento, cada patalla de categoria , cada pantalla de fabricante, cada pantalla de marca, etc. Para Clevertap el evento se registra con el nombre screen_view_c.

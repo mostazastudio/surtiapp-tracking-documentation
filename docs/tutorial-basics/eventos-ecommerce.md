@@ -6,6 +6,14 @@ sidebar_position: 3
 
 Esta es la lista de eventos para medir las acciones de ECOMMERCE con base al estandar de Google Analytics 4 y que tambien lo usaremos para Clevertap
 
+### Parametro Modelo de Negocio
+
+Para TODOS los eventos se tiene un parametro adicional `BusinessModel` que indica el modelo de negocio del usuario, si es B2B o B2C.
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- |
+|[`BusinessModel`](../tutorial-extras/parametros-ecommerce.md#BusinessModel)| `string` | SI | B2B | Modelo de negocio del usuario |
+
 ### `view_item_list`
 
 Se usa para medir cuando al usuario se le ha presentado una **lista o grilla de productos** especifica, indicado ademas cuales productos componen esa lista.

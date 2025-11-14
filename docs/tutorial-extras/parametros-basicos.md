@@ -1,6 +1,12 @@
 ﻿# Parametros Basicos
 
+### `BusinessModel`
 
+Modelo de negocio del usuario
+
+*Ejemplo:* B2B
+
+**Se usa en TODOS los eventos**
 
 ### `nombre_pantalla`
 

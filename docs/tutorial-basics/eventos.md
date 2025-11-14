@@ -273,3 +273,61 @@ Se usa para medir cuando se hace scroll en el catalogo de productos (paginacion)
 
 ---
 ---
+
+### `view_knowledge_library`
+
+Se usa para medir cuando visualizan un articulo de la biblioteca de conocimiento (Opcion Contenido).
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`knowledge_library_id`](../tutorial-extras/parametros-basicos.md#knowledge_library_id)| `string` | Si | fdsa45fds45f4s5454 | ID del articulo de la biblioteca de conocimiento que se esta visualizando |
+|[`knowledge_library_title`](../tutorial-extras/parametros-basicos.md#knowledge_library_title)| `string` | No | Como hacer un trago | Titulo del articulo de la biblioteca de conocimiento que se esta visualizando |
+|[`knowledge_library_description`](../tutorial-extras/parametros-basicos.md#knowledge_library_description)| `string` | No | Como hacer un trago | Descripcion del articulo de la biblioteca de conocimiento que se esta visualizando |
+|[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | No | 12345678 | Identificacion del usuario que esta visualizando el articulo |
+|[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
+|[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS |
+|[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |
+
+---
+---
+
+### `download_knowledge_library`
+
+Se usa para medir cuando descarga un articulo de la biblioteca de conocimiento (Opcion Contenido).
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`knowledge_library_id`](../tutorial-extras/parametros-basicos.md#knowledge_library_id)| `string` | Si | fdsa45fds45f4s5454 | ID del articulo de la biblioteca de conocimiento que se esta descargando |
+|[`knowledge_library_title`](../tutorial-extras/parametros-basicos.md#knowledge_library_title)| `string` | No | Como hacer un trago | Titulo del articulo de la biblioteca de conocimiento que se esta descargando |
+|[`knowledge_library_description`](../tutorial-extras/parametros-basicos.md#knowledge_library_description)| `string` | No | Como hacer un trago | Descripcion del articulo de la biblioteca de conocimiento que se esta descargando |
+|[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | No | 12345678 | Identificacion del usuario que esta descargando el articulo |
+|[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
+|[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS |
+|[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |
+
+---
+---
+
+### `rate_knowledge_library`
+
+Se usa para medir cuando califica un articulo de la biblioteca de conocimiento (Opcion Contenido).
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`knowledge_library_id`](../tutorial-extras/parametros-basicos.md#knowledge_library_id)| `string` | Si | fdsa45fds45f4s5454 | ID del articulo de la biblioteca de conocimiento que se esta calificando |
+|[`knowledge_library_title`](../tutorial-extras/parametros-basicos.md#knowledge_library_title)| `string` | No | Como hacer un trago | Titulo del articulo de la biblioteca de conocimiento que se esta calificando |
+|[`knowledge_library_description`](../tutorial-extras/parametros-basicos.md#knowledge_library_description)| `string` | No | Como hacer un trago | Descripcion del articulo de la biblioteca de conocimiento que se esta calificando |
+|[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | No | 12345678 | Identificacion del usuario que esta calificando el articulo |
+|[`rating`](../tutorial-extras/parametros-basicos.md#rating)| `number` | Si | 4 | Calificacion dada por el usuario al articulo (valor entre 1 y 5) |
+|[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
+|[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS |
+|[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |
+
+---
+---

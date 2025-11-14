@@ -218,3 +218,61 @@ Es el indice o la pagina en la que se hace scroll
 **Se usa en los siguientes eventos:**
 
 - [`scroll`](../tutorial-basics/eventos.md#scroll)
+
+### `knowledge_library_id`
+
+ID del articulo de la biblioteca de conocimiento que se esta visualizando
+
+*Ejemplo:* fdsa45fds45f4s5454
+
+**Se usa en los siguientes eventos:**
+
+- [`view_knowledge_library`](../tutorial-basics/eventos.md#view_knowledge_library)
+- [`download_knowledge_library`](../tutorial-basics/eventos.md#download_knowledge_library)
+- [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+
+### `knowledge_library_title`
+
+Titulo del articulo de la biblioteca de conocimiento que se esta visualizando
+
+*Ejemplo:* Como hacer un trago
+
+**Se usa en los siguientes eventos:**
+
+- [`view_knowledge_library`](../tutorial-basics/eventos.md#view_knowledge_library)
+- [`download_knowledge_library`](../tutorial-basics/eventos.md#download_knowledge_library)
+- [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+
+### `knowledge_library_description`
+
+Descripcion del articulo de la biblioteca de conocimiento que se esta visualizando
+
+*Ejemplo:* Aprende a preparar un delicioso trago con nuestros expertos.
+
+**Se usa en los siguientes eventos:**
+
+- [`view_knowledge_library`](../tutorial-basics/eventos.md#view_knowledge_library)
+- [`download_knowledge_library`](../tutorial-basics/eventos.md#download_knowledge_library)
+- [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+
+### `customer_identification`
+
+Identificacion del usuario que esta visualizando el articulo
+
+*Ejemplo:* 12345678
+
+**Se usa en los siguientes eventos:**
+
+- [`view_knowledge_library`](../tutorial-basics/eventos.md#view_knowledge_library)
+- [`download_knowledge_library`](../tutorial-basics/eventos.md#download_knowledge_library)
+- [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+
+### `rating`
+
+Valor de la calificacion dada por el usuario al articulo (valor entre 1 y 5)
+
+*Ejemplo:* 4
+
+**Se usa en los siguientes eventos:**
+
+- [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)

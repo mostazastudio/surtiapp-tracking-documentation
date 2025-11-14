@@ -11,7 +11,7 @@ Esta es la lista de eventos para medir las acciones de ECOMMERCE con base al est
 Para TODOS los eventos se tiene un parametro adicional `BusinessModel` que indica el modelo de negocio del usuario, si es B2B o B2C.
 
 | Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 |[`BusinessModel`](../tutorial-extras/parametros-ecommerce.md#BusinessModel)| `string` | SI | B2B | Modelo de negocio del usuario |
 
 ---

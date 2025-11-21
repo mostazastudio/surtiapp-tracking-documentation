@@ -276,3 +276,13 @@ Valor de la calificacion dada por el usuario al articulo (valor entre 1 y 5)
 **Se usa en los siguientes eventos:**
 
 - [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+
+### `elapsed_time`
+
+Tiempo en segundos que el usuario paso en la pantalla
+
+*Ejemplo:* 3.5448445
+
+**Se usa en los siguientes eventos:**
+
+- [`screen_view_elapsed_time`](../tutorial-basics/eventos.md#screen_view_elapsed_time)

@@ -19,13 +19,30 @@ Para TODOS los eventos se tiene un parametro adicional `BusinessModel` que indic
 
 ### `screen_view`
 
-Se usa para medir cuando visualizacion de pantalla en la App. Deberia visualizar pantallas como login, creacion_cuenta, tienda,promos, fabricantes, favoritos, cuenta, cada pantalla de departamento, cada patalla de categoria , cada pantalla de fabricante, cada pantalla de marca, etc. Para Clevertap el evento se registra con el nombre screen_view_c.
+Se usa para medir cuando se visualiza una pantalla en la App. Deberia visualizar pantallas como login, creacion_cuenta, tienda,promos, fabricantes, favoritos, cuenta, cada pantalla de departamento, cada patalla de categoria , cada pantalla de fabricante, cada pantalla de marca, etc. Para Clevertap el evento se registra con el nombre screen_view_c.
 
 #### Parametros
 
 | Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
 | --- | --- | --- | --- | --- |
 |[`nombre_pantalla`](../tutorial-extras/parametros-basicos.md#nombre_pantalla)| `string` | Si | licores/aguardientes | nombre de la pantalla que se esta visualizando |
+|[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
+|[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS donde se esta navegando |
+|[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |
+
+---
+---
+
+### `screen_view_elapsed_time`
+
+Se usa para medir el tiempo que un usuario pasa en una pantalla de la App.
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`nombre_pantalla`](../tutorial-extras/parametros-basicos.md#nombre_pantalla)| `string` | Si | licores/aguardientes | nombre de la pantalla que se esta visualizando |
+|[`elapsed_time`](../tutorial-extras/parametros-basicos.md#elapsed_time)| `string` | Si | 3.755455 | tiempo en segundos que el usuario paso en la pantalla |
 |[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
 |[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS donde se esta navegando |
 |[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |

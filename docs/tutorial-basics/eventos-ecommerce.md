@@ -357,6 +357,9 @@ Se usa para medir cada vez que el usuario agrega ( no tenia ) o confirma ( ya te
 |[`positive_balance`](../tutorial-extras/parametros-ecommerce.md#positive_balance)| `number` | No | 4500 | Valor del saldo positivo que tenga el usuario y que puede usar para pagar |
 |[`marking_value`](../tutorial-extras/parametros-ecommerce.md#marking_value)| `number` | No | 4500 | Por definir extactamente que es esto |
 |[`items`](../tutorial-extras/parametros-ecommerce.md#items)| `Array<Item>` | Si |  | Informacion del(los) Producto(s) que se encuentran en el carrito y con los cuales se esta haciendo checkout |
+|[`points_redeemed_type`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_type)| `string` | No | OnlyMoney | Tipo de pago con puntos que se esta usando para la compra |
+|[`points_redeemed_value`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_value)| `number` | No | 1500 | Valor de los puntos que se estan redimiendo para la compra |
+|[`points_earn_value`](../tutorial-extras/parametros-ecommerce.md#points_earn_value)| `number` | No | 2500 | Valor de los puntos que se estan ganando con la compra |
 
 #### Parametros de `Item`
 
@@ -398,6 +401,9 @@ Se usa para medir cada vez que el usuario da click para ir a la pasarela de pago
 |[`value`](../tutorial-extras/parametros-ecommerce.md#value)| `number` | Si | 39900 | Valor Total monetario del(los) producto(s) que se encuentran en el carrito y con los cuales se esta haciendo checkout. Este valor debe ser el resultado de la sumatoria de [`price`](../tutorial-extras/parametros-ecommerce.md#price)*[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity) de cada uno de los productos en el carrito  |
 |[`coupon`](../tutorial-extras/parametros-ecommerce.md#coupon)| `string` | No | PRIMERAVEZ | Si el usuario aplico un cupon especificar cual. |
 |[`items`](../tutorial-extras/parametros-ecommerce.md#items)| `Array<Item>` | Si |  | Informacion del(los) Producto(s) que se encuentran en el carrito y con los cuales se esta haciendo checkout |
+|[`points_redeemed_type`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_type)| `string` | No | OnlyMoney | Tipo de pago con puntos que se esta usando para la compra |
+|[`points_redeemed_value`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_value)| `number` | No | 1500 | Valor de los puntos que se estan redimiendo para la compra |
+|[`points_earn_value`](../tutorial-extras/parametros-ecommerce.md#points_earn_value)| `number` | No | 2500 | Valor de los puntos que se estan ganando con la compra |
 
 #### Parametros de `Item`
 
@@ -443,6 +449,9 @@ Se usa para medir cada vez que el usuario ha completado exitosamente su compra. 
 |[`positive_balance`](../tutorial-extras/parametros-ecommerce.md#positive_balance)| `number` | No | 4500 | Valor del saldo positivo que tenga el usuario y que puede usar para pagar |
 |[`marking_value`](../tutorial-extras/parametros-ecommerce.md#marking_value)| `number` | No | 4500 | Por definir extactamente que es esto |
 |[`items`](../tutorial-extras/parametros-ecommerce.md#items)| `Array<Item>` | Si |  | Informacion del(los) Producto(s) que se compraron |
+|[`points_redeemed_type`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_type)| `string` | No | OnlyMoney | Tipo de pago con puntos que se esta usando para la compra |
+|[`points_redeemed_value`](../tutorial-extras/parametros-ecommerce.md#points_redeemed_value)| `number` | No | 1500 | Valor de los puntos que se estan redimiendo para la compra |
+|[`points_earn_value`](../tutorial-extras/parametros-ecommerce.md#points_earn_value)| `number` | No | 2500 | Valor de los puntos que se estan ganando con la compra |
 
 #### Parametros de `Item`
 

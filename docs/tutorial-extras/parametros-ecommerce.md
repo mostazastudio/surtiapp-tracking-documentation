@@ -519,11 +519,47 @@ Valor del saldo positivo cargado en su cuenta que tenga el usuario y que puede u
 
 ### `marking_value`
 
-Por definir que es este parametro su definicio
+Valor o precio de marcacion de botellas
 
 *Ejemplo:* 12500
 
 **Se usa en los siguientes eventos:**
 
 - [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+
+### `points_redeemed_type`
+
+Tipo de pago con puntos que se esta usando para la compra
+
+*Ejemplo:* OnlyMoney
+
+**Se usa en los siguientes eventos:**
+
+- [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+
+### `points_redeemed_value`
+
+Cantidad de puntos que se esta usando para la compra
+
+*Ejemplo:* 1500
+
+**Se usa en los siguientes eventos:**
+
+- [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+
+### `points_earn_value`
+
+Cantidad de puntos que se esta ganando con la compra
+
+*Ejemplo:* 2500
+
+**Se usa en los siguientes eventos:**
+
+- [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
 - [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)

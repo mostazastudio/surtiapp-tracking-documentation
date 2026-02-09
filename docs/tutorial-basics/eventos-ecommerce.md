@@ -50,6 +50,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto esta siendo mostrado |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto mostradas. Si el producto que se muestra implica mas de 1, se debe cambiar el 1 |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [view_item_list en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#view_item_list)
 

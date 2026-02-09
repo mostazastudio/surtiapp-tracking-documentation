@@ -363,6 +363,48 @@ Cantidad de unidades del producto involucrado en el evento de Ecommerce.Es un pa
 - [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
 - [`view_promotion`](../tutorial-basics/eventos-ecommerce.md#view_promotion)
 
+### `points_value`
+
+Cantidad de puntos que se pueden ganar o redimir con la compra del producto involucrado en el evento de Ecommerce. Es un parametro que debe llevar cada item de la lista que compone el parametro [`item`](./parametros-ecommerce.md#items)
+
+*Ejemplo:* 100
+
+**Se usa en los siguientes eventos:**
+
+- [`view_item_list`](../tutorial-basics/eventos-ecommerce.md#view_item_list)
+- [`view_item`](../tutorial-basics/eventos-ecommerce.md#view_item)
+- [`add_to_cart`](../tutorial-basics/eventos-ecommerce.md#add_to_cart)
+- [`add_to_whishlist`](../tutorial-basics/eventos-ecommerce.md#add_to_wishlist)
+- [`view_cart`](../tutorial-basics/eventos-ecommerce.md#view_cart)
+- [`remove_from_cart`](../tutorial-basics/eventos-ecommerce.md#remove_from_cart)
+- [`begin_checkout`](../tutorial-basics/eventos-ecommerce.md#begin_checkout)
+- [`add_shipping_info`](../tutorial-basics/eventos-ecommerce.md#add_shipping_info)
+- [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+- [`view_promotion`](../tutorial-basics/eventos-ecommerce.md#view_promotion)
+
+### `points_type`
+
+Tipo de puntos del producto involucrado en el evento de Ecommerce. Es un parametro que debe llevar cada item de la lista que compone el parametro [`item`](./parametros-ecommerce.md#items)
+
+*Ejemplo:* PointsToEarn
+
+**Se usa en los siguientes eventos:**
+
+- [`view_item_list`](../tutorial-basics/eventos-ecommerce.md#view_item_list)
+- [`view_item`](../tutorial-basics/eventos-ecommerce.md#view_item)
+- [`add_to_cart`](../tutorial-basics/eventos-ecommerce.md#add_to_cart)
+- [`add_to_whishlist`](../tutorial-basics/eventos-ecommerce.md#add_to_wishlist)
+- [`view_cart`](../tutorial-basics/eventos-ecommerce.md#view_cart)
+- [`remove_from_cart`](../tutorial-basics/eventos-ecommerce.md#remove_from_cart)
+- [`begin_checkout`](../tutorial-basics/eventos-ecommerce.md#begin_checkout)
+- [`add_shipping_info`](../tutorial-basics/eventos-ecommerce.md#add_shipping_info)
+- [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
+- [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+- [`view_promotion`](../tutorial-basics/eventos-ecommerce.md#view_promotion)
+
 ### `shipping_tier`
 
 Tipo de Envio seleccionado para el despacho de la compra.

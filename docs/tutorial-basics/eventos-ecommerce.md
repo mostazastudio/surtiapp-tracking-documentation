@@ -90,6 +90,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el ingreso al detalle de producto |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto mostradas. Si el producto que se muestra implica mas de 1, se debe cambiar el 1 |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [view_item en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#view_item)
 
@@ -128,6 +130,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [add_to_cart en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_to_cart)
 
@@ -167,6 +171,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado a la lista de deseos |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [add_to_wishlist en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_to_wishlist)
 
@@ -205,6 +211,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [view_cart en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#view_cart)
 
@@ -243,6 +251,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el removido |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto removidas del carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [remove_from_cart en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#remove_from_cart)
 
@@ -282,6 +292,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el checkout |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [begin_checkout en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#begin_checkout)
 
@@ -321,6 +333,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el checkout |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [add_shipping_info en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_shipping_info)
 
@@ -364,6 +378,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el checkout |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [add_payment_info en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_payment_info)
 
@@ -403,6 +419,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el checkout |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 
 ---
@@ -446,6 +464,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el agregado al carrito y ahora el checkout |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto agregadas al carrito |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 Documentacion Adicional: [purchase en GA4](https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#purchase)
 
@@ -487,6 +507,8 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 |[`promotion_name`](../tutorial-extras/parametros-ecommerce.md#promotion_name)| `string` | No | 50Descuento | Nombre de la promocion o actividad en la cual este producto esta siendo impulsado |
 |[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
 |[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto  |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
 
 
 ---

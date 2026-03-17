@@ -38,6 +38,7 @@ El usuario al iniciar sesion en la App, se debe llamar el metodo setUserID que n
 |`ClevertapMsgEmail_MSG-dndEmail`| `boolean` | Si | `false` | Autorizacion envios email |
 |`ClevertapMsgSms_MSG-dndPhone`| `boolean` | Si | `false` | Autorizacion envios SMS |
 |`ClevertapMsgWhatsapp_MSG-whatsapp`| `boolean` | Si | `true` | Autorizacion envios Whatsapp |
+|`masonry_toggle`| `boolean` | Si | `true` | Indica si la vista de grilla (Masonry) está habilitada |
 
 
 

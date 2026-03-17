@@ -286,3 +286,12 @@ Tiempo en segundos que el usuario paso en la pantalla
 **Se usa en los siguientes eventos:**
 
 - [`screen_view_elapsed_time`](../tutorial-basics/eventos.md#screen_view_elapsed_time)
+
+### `masonry_enabled`
+
+Indica si la vista de grilla (Masonry) está habilitada
+
+*Ejemplo:* true
+**Se usa en los siguientes eventos:**
+
+- [`masonry_toggle`](../tutorial-basics/eventos.md#masonry_toggle)

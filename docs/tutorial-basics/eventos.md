@@ -348,3 +348,19 @@ Se usa para medir cuando califica un articulo de la biblioteca de conocimiento (
 
 ---
 ---
+
+### `masonry_toggle`
+
+Se usa para medir los clicks a la opcion o boton para organizar el listado de productos en vista de grilla normal o grilla (Masonry).
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`masonry_enabled`](../tutorial-extras/parametros-basicos.md#masonry_enabled)| `boolean` | Si | true | Indica si la vista de grilla (Masonry) está habilitada |
+|[`dispositivo`](../tutorial-extras/parametros-basicos.md#dispositivo)| `string` | No | Samsung Galaxy S8| Nombre del dispositivo donde se esta navegando |
+|[`sistema_operativo`](../tutorial-extras/parametros-basicos.md#sistema_operativo)| `string` | No | Android 14| Nombre OS |
+|[`nombre_dia`](../tutorial-extras/parametros-basicos.md#nombre_dia)| `string` | No | Miercoles | Nombre del dia de la semana |
+
+---
+---

@@ -522,3 +522,41 @@ Son los parametros que lleva cada uno de los elementos del Array de  [`items`](.
 
 ---
 ---
+
+### `share_item`
+
+Se usa para medir cada vez que un usuario comparte un producto.
+
+#### Parametros
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`currency`](../tutorial-extras/parametros-ecommerce.md#currency)| `string` | Si | COP | Tipo de Moneda usado |
+|[`value`](../tutorial-extras/parametros-ecommerce.md#value)| `number` | Si | 39900| Valor monetario del producto |
+|[`items`](../tutorial-extras/parametros-ecommerce.md#items)| `Array<Item>` | Si |  | Informacion del Producto que se esta compartiendo |
+
+#### Parametros de `Item`
+
+Son los parametros que lleva cada uno de los elementos del Array de  [`items`](../tutorial-extras/parametros-ecommerce.md#items) que en este caso <mark>es solamente 1, el producto que se esta compartiendo</mark>.
+
+| Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
+| --- | --- | --- | --- | --- |
+|[`item_id`](../tutorial-extras/parametros-ecommerce.md#item_id)| `string` | Si | BN43535 | ID o SKU unico del producto |
+|[`item_name`](../tutorial-extras/parametros-ecommerce.md#item_name)| `string` | Si | Aguardiente Desquite Artesanal x 750ml | Nombre del producto |
+|[`coupon`](../tutorial-extras/parametros-ecommerce.md#coupon)| `string` | No | AÑONUEVO | Si el producto trae asociado un cupon, especificarlo |
+|[`discount`](../tutorial-extras/parametros-ecommerce.md#discount)| `number` | No | 5000 | Valor monetario del descuento |
+|[`index`](../tutorial-extras/parametros-ecommerce.md#index)| `number` | No | 6 | Posicion que tenia el producto cuando se mostro en la lista previamente |
+|[`item_brand`](../tutorial-extras/parametros-ecommerce.md#item_brand)| `string` | No | Desquite | Marca del producto |
+|[`item_fabricante`](../tutorial-extras/parametros-ecommerce.md#item_fabricante)| `string` | No | Fabrica de Licores de Cundinamarca | Fabrica del producto |
+|[`item_category`](../tutorial-extras/parametros-ecommerce.md#item_category)| `string` | No | Licores | Departamento del producto |
+|[`item_category2`](../tutorial-extras/parametros-ecommerce.md#item_category2)| `string` | No | Aguardientes | Categoria del producto |
+|[`item_category3`](../tutorial-extras/parametros-ecommerce.md#item_category3)| `string` | No | Aguardientes Nacionales | Subcategoria  del producto |
+|[`item_list_id`](../tutorial-extras/parametros-ecommerce.md#item_list_id)| `string` | No | CV58696 | ID unico de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el ingreso al detalle de producto |
+|[`item_list_name`](../tutorial-extras/parametros-ecommerce.md#item_list_name)| `string` | No | Licores/Aguardiente| Nombre de la lista - categoria donde el produdcto estaba siendo mostrado y que genero el ingreso al detalle de producto |
+|[`price`](../tutorial-extras/parametros-ecommerce.md#price)| `number` | No | 24000| Precio del Producto en Numero |
+|[`quantity`](../tutorial-extras/parametros-ecommerce.md#quantity)| `number` | No | 1| Unidades del producto mostradas. Si el producto que se muestra implica mas de 1, se debe cambiar el 1 |
+|[`points_value`](../tutorial-extras/parametros-ecommerce.md#points_value)| `number` | No | 100 | Puntos que se pueden ganar o redimir con la compra del producto |
+|[`points_type`](../tutorial-extras/parametros-ecommerce.md#points_type)| `string` | No | PointsToEarn | Tipo de puntos del producto |
+
+---
+---

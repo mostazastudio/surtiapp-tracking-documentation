@@ -257,7 +257,7 @@ Descripcion del articulo de la biblioteca de conocimiento que se esta visualizan
 
 ### `customer_identification`
 
-Identificacion del usuario que esta visualizando el articulo
+Identificacion del cliente
 
 *Ejemplo:* 12345678
 
@@ -266,6 +266,7 @@ Identificacion del usuario que esta visualizando el articulo
 - [`view_knowledge_library`](../tutorial-basics/eventos.md#view_knowledge_library)
 - [`download_knowledge_library`](../tutorial-basics/eventos.md#download_knowledge_library)
 - [`rate_knowledge_library`](../tutorial-basics/eventos.md#rate_knowledge_library)
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
 
 ### `rating`
 
@@ -292,6 +293,130 @@ Tiempo en segundos que el usuario paso en la pantalla
 Indica si la vista de grilla (Masonry) está habilitada
 
 *Ejemplo:* true
+
 **Se usa en los siguientes eventos:**
 
+- [`masonry_toggle`](../tutorial-basics/eventos.md#masonry_toggle)
+
+---
+
+### `campaign_name`
+
+Nombre de la campaña del deeplink
+
+*Ejemplo:* promo_navidad
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `channel`
+
+Canal de origen del deeplink
+
+*Ejemplo:* email
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `product_reference`
+
+Codigo de referencia del producto al que apunta el deeplink
+
+*Ejemplo:* REF-001
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `category_name`
+
+Nombre de la categoria a la que apunta el deeplink
+
+*Ejemplo:* Aguardientes
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `department_name`
+
+Nombre del departamento al que pertenece la categoria del deeplink
+
+*Ejemplo:* Licores
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `manufacturer_name`
+
+Nombre del fabricante al que apunta el deeplink
+
+*Ejemplo:* FLA
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `customer_name`
+
+Nombre completo del cliente
+
+*Ejemplo:* Diego Torres
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `customer_branch_office_code`
+
+Codigo de la sucursal del cliente
+
+*Ejemplo:* BOG-01
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `customer_branch_office_description`
+
+Descripcion de la sucursal del cliente
+
+*Ejemplo:* Bogota Norte
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `customer_cluster`
+
+Cluster al que pertenece el cliente
+
+*Ejemplo:* Cluster A
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
+
+
+### `date`
+
+Fecha y hora en que se registro el evento
+
+*Ejemplo:* 2025-01-03 10:30:00
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)
 - [`masonry_toggle`](../tutorial-basics/eventos.md#masonry_toggle)

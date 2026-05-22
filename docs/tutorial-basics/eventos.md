@@ -373,17 +373,17 @@ Se usa para medir cuando un usuario ingresa a la App a través de un deeplink. R
 
 | Nombre | Tipo | Obligatorio | Ejemplo | Descripcion |
 | --- | --- | --- | --- | --- |
-|[`campaign_name`](../tutorial-extras/parametros-basicos.md#campaign_name)| `string` | Si | promo_navidad | Nombre de la campaña del deeplink |
-|[`channel`](../tutorial-extras/parametros-basicos.md#channel)| `string` | Si | email | Canal de origen del deeplink |
+|[`campaign_name`](../tutorial-extras/parametros-basicos.md#campaign_name)| `string` | No | promo_navidad | Nombre de la campaña del deeplink |
+|[`channel`](../tutorial-extras/parametros-basicos.md#channel)| `string` | No | email | Canal de origen del deeplink |
 |[`product_reference`](../tutorial-extras/parametros-basicos.md#product_reference)| `string` | No | REF-001 | Codigo de referencia del producto al que apunta el deeplink |
 |[`category_name`](../tutorial-extras/parametros-basicos.md#category_name)| `string` | No | Aguardientes | Nombre de la categoria a la que apunta el deeplink |
 |[`department_name`](../tutorial-extras/parametros-basicos.md#department_name)| `string` | No | Licores | Nombre del departamento al que pertenece la categoria del deeplink |
 |[`manufacturer_name`](../tutorial-extras/parametros-basicos.md#manufacturer_name)| `string` | No | FLA | Nombre del fabricante al que apunta el deeplink |
-|[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | Si | 12345678 | Identificacion del cliente |
-|[`customer_name`](../tutorial-extras/parametros-basicos.md#customer_name)| `string` | Si | Diego Torres | Nombre completo del cliente |
-|[`customer_branch_office_code`](../tutorial-extras/parametros-basicos.md#customer_branch_office_code)| `string` | Si | BOG-01 | Codigo de la sucursal del cliente |
-|[`customer_branch_office_description`](../tutorial-extras/parametros-basicos.md#customer_branch_office_description)| `string` | Si | Bogota Norte | Descripcion de la sucursal del cliente |
-|[`customer_cluster`](../tutorial-extras/parametros-basicos.md#customer_cluster)| `string` | Si | Cluster A | Cluster al que pertenece el cliente |
+|[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | No | 12345678 | Identificacion del cliente |
+|[`customer_name`](../tutorial-extras/parametros-basicos.md#customer_name)| `string` | No | Diego Torres | Nombre completo del cliente |
+|[`customer_branch_office_code`](../tutorial-extras/parametros-basicos.md#customer_branch_office_code)| `string` | No | BOG-01 | Codigo de la sucursal del cliente |
+|[`customer_branch_office_description`](../tutorial-extras/parametros-basicos.md#customer_branch_office_description)| `string` | No | Bogota Norte | Descripcion de la sucursal del cliente |
+|[`customer_cluster`](../tutorial-extras/parametros-basicos.md#customer_cluster)| `string` | No | Cluster A | Cluster al que pertenece el cliente |
 |[`date`](../tutorial-extras/parametros-basicos.md#date)| `string` | Si | 2025-01-03 10:30:00 | Fecha y hora en que se registro el evento |
 
 ---

@@ -420,3 +420,13 @@ Fecha y hora en que se registro el evento
 
 - [`deeplink`](../tutorial-basics/eventos.md#deeplink)
 - [`masonry_toggle`](../tutorial-basics/eventos.md#masonry_toggle)
+
+### `coupon`
+
+Codigo del cupon al que apunta el deeplink
+
+*Ejemplo:* CUPON12345
+
+**Se usa en los siguientes eventos:**
+
+- [`deeplink`](../tutorial-basics/eventos.md#deeplink)

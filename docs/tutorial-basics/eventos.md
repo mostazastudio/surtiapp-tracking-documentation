@@ -379,6 +379,7 @@ Se usa para medir cuando un usuario ingresa a la App a través de un deeplink. R
 |[`category_name`](../tutorial-extras/parametros-basicos.md#category_name)| `string` | No | Aguardientes | Nombre de la categoria a la que apunta el deeplink |
 |[`department_name`](../tutorial-extras/parametros-basicos.md#department_name)| `string` | No | Licores | Nombre del departamento al que pertenece la categoria del deeplink |
 |[`manufacturer_name`](../tutorial-extras/parametros-basicos.md#manufacturer_name)| `string` | No | FLA | Nombre del fabricante al que apunta el deeplink |
+|[`coupon`](../tutorial-extras/parametros-basicos.md#coupon)| `string` | No | CUPON12345 | Codigo del cupon al que apunta el deeplink |
 |[`customer_identification`](../tutorial-extras/parametros-basicos.md#customer_identification)| `string` | No | 12345678 | Identificacion del cliente |
 |[`customer_name`](../tutorial-extras/parametros-basicos.md#customer_name)| `string` | No | Diego Torres | Nombre completo del cliente |
 |[`customer_branch_office_code`](../tutorial-extras/parametros-basicos.md#customer_branch_office_code)| `string` | No | BOG-01 | Codigo de la sucursal del cliente |

@@ -563,3 +563,14 @@ Cantidad de puntos que se esta ganando con la compra
 - [`add_payment_info`](../tutorial-basics/eventos-ecommerce.md#add_payment_info)
 - [`ir_a_pasarela_pago`](../tutorial-basics/eventos-ecommerce.md#ir_a_pasarela_pago)
 - [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
+
+### `office_pickup`
+
+Si el usuario esta recogiendo la compra en oficina o no
+
+*Ejemplo:* True
+
+**Se usa en los siguientes eventos:**
+
+- [`add_shipping_info`](../tutorial-basics/eventos-ecommerce.md#add_shipping_info)
+- [`purchase`](../tutorial-basics/eventos-ecommerce.md#purchase)
